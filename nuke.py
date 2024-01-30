@@ -36,4 +36,9 @@ async def on_message(message):
 			channel = await guild.create_text_channel('[fucked-by-the-UAR]')
 
 
-bot.run("") #token here
+tokenfile = open("token.txt","r")
+token = tokenfile.read()
+tokenfile.close()
+
+bot.run(token)
+
