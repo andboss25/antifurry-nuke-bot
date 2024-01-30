@@ -1,3 +1,3 @@
 # antifurry-nuke-bot
 a simple antifurry nuke bot
-activate with **nuke** after you added it in , also the necesary libraries of course
+install discord in pip and asyncio , add token , activate with **nuke**(no highlitight , just: nuke) after you added it in
